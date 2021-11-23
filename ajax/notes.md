@@ -130,5 +130,29 @@ Examples of 3rd Party APIS
 
 /---------------------------------------------
 
-Callback Hell
+Fetch function always returns a promise
+Promise
+> an object that is used as a placeholder for the future result of an
+  asynchronous operation
+> a container for an asynchronous delivered value
+> a container for a future value
+> future value can be a response from an AJAX call
+> we no longer need to rely on events and callbacks passed into async functions
+ to handle async results
+> instead of nesting we can chain promises for a sequence of async operations
+ escaping callback hell
+> Promises can be in different states (lifecycle of a promise)
+    > Time sensitive
+    > PENDING: before the future value is available
+    > SETTLED: async task has finished
+    > FULFILLED: Successful the value is available
+    > REJECTED: Error has occurred
+> Consuming Promise:
+  > when we already have a promise e.g promise returned from Fetch API
+
+/---------------------------------------------
+
+
+
+
 
